@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('code') {
+        stage('execute bash command') {
             steps {
                sh '''
                  #!bin/bash
